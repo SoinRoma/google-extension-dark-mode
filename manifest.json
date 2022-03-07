@@ -1,0 +1,22 @@
+{
+  "name": "Dark.mode",
+  "description": "Тёмный режим для любой странице",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "popup.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Dark.mode",
+    "default_popup": "popup.html"
+
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/",
+    "tabs"
+  ]
+}
