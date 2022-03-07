@@ -1,6 +1,12 @@
 {
   "name": "Dark.mode",
   "description": "Тёмный режим для любой странице",
+  "icons": {
+    "16": "/images/icon.png",
+    "32": "/images/icon.png",
+    "48": "/images/icon.png",
+    "128": "/images/icon.png"
+  },
   "version": "1.0.0",
   "manifest_version": 2,
   "background": {
@@ -11,7 +17,13 @@
   },
   "browser_action": {
     "default_title": "Dark.mode",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/icon.png",
+      "32": "/images/icon.png",
+      "48": "/images/icon.png",
+      "128": "/images/icon.png"
+    }
 
   },
   "permissions": [
