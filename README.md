@@ -7,11 +7,10 @@ Google Расширение для браузера. Позволяет акти
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
 
 ### Полезные ссылки
-+ https://www.freecodecamp.org/news/building-chrome-extension/
-  
-+ https://developer.chrome.com/docs/extensions/mv3/getstarted/
++ [Как создать своё Google расширени. Часть-1](https://www.freecodecamp.org/news/building-chrome-extension/)
++ [Как создать своё Google расширени. Часть-2](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
 
-### Запуск проекта в Google Chrome
+### Запуск расширения в Google Chrome
 
 1 - Открыть Google Chrome 
 
