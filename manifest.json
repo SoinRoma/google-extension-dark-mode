@@ -1,21 +1,15 @@
 {
   "name": "Dark.mode",
-  "description": "Тёмный режим для любой странице",
+  "description": "Тёмный режим для любого сайта",
   "icons": {
     "16": "/images/icon.png",
     "32": "/images/icon.png",
     "48": "/images/icon.png",
     "128": "/images/icon.png"
   },
-  "version": "1.0.0",
-  "manifest_version": 2,
-  "background": {
-    "scripts": [
-      "popup.js"
-    ],
-    "persistent": true
-  },
-  "browser_action": {
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "action": {
     "default_title": "Dark.mode",
     "default_popup": "popup.html",
     "default_icon": {
@@ -26,9 +20,5 @@
     }
 
   },
-  "permissions": [
-    "https://*/*",
-    "http://*/",
-    "tabs"
-  ]
+  "permissions": ["storage", "activeTab", "scripting", "tabs"]
 }
